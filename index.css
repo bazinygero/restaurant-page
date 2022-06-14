@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(./img/cover.jpg);
+    background-size: cover;
+    background-position: top center;
+    opacity: 0.8;
+}
+
+h1 {
+    position: relative;
+    font-size: 2em;
+    text-align: center;
+}
