@@ -43,12 +43,12 @@ function about() {
 
 home();
 
-document.addEventListener('click', (e) => {
+document.addEventListener("click", (e) => {
     const target = e.target.innerText;
 
-    if(target === "Home") home();
-    if(target === "Menu") menu();
-    if(target === "About") about();
+    if(target === "HOME") home();
+    if(target === "MENU" || target === "Go to Menu") menu();
+    if(target === "ABOUT") about();
 })
 
 export { createHtmlElement, content}

@@ -6,7 +6,7 @@ function render() {
         "p",
         null,
         null,
-        "developed by vaniok"
+        `inspired by ${<a>https://github.com/ginnerzapata/restaurant</a>}`
     )
 
     footer.appendChild(p);
